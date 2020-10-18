@@ -1,0 +1,27 @@
+{
+  "name": "AudioServer",
+  "version": "1.0.0",
+  "description": "Hackathon BBVA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Team Archuletas",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "https-proxy-agent": "^5.0.0",
+    "microsoft-cognitiveservices-speech-sdk": "^1.13.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "wav": "^1.0.2",
+    "wavefile": "^11.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}

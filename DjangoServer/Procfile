@@ -1,0 +1,1 @@
+web: gunicorn HackBBVA.wsgi - log-file -
